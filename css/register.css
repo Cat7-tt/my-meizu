@@ -1,0 +1,263 @@
+*{margin:0px;padding:0px;}
+        a,i{text-decoration: none;}
+        .border-radius{
+            border-radius: 2px;
+        }
+        .box{
+            width:100%;
+        }
+        .header{
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
+        .header .mz{
+            width:110px;
+            height: 20px;
+            display: block;
+            margin-left: 200px;
+        }
+        .header .logo{
+            width:100%;
+            height:100%;
+            display: block;
+            background: url('../img/base.png') -3px -4px no-repeat;
+        } 
+        .content{
+            height: 750px;
+            background:linear-gradient(#edfcfd,#faffff );
+            position: relative;
+        }
+        .banner{
+            width: 100%;
+            height: 750px;
+            background: url('../img/pic-flyme.png');
+            background-position: 50% 50%;
+            position: absolute;
+        }
+        .logForm{
+            background-color: #ffffff;
+            padding:40px 40px 10px;
+            position:absolute;
+            top:15%;
+            right:180px;
+            box-shadow:0 5px 5px #cccccc ;
+        }
+        .log-title{
+            text-align: center;
+            width:300px;
+            margin-top: 40px;
+            color:#387aff;
+        }
+        .tip{
+            width:100%;
+            height:33px;
+            border:1px solid #ffc2b3;
+            background-color: #ffd1ca;
+            margin-top:4px;
+            margin-bottom: 4px;
+            position: relative;
+            visibility: hidden;
+        }
+        .error-ico{
+            width:16px;
+            height:16px;
+            background:url(../img/error-ico.png);
+            display: inline-block;
+            position: absolute;
+            top: 10px;
+            left: 10px;
+        }
+        .regsiter{
+            font-size: 12px;
+            color:#666;
+            padding-left: 35px;
+            padding-top: 10px;
+            vertical-align: middle;
+            display: inline-block;
+        }
+        .close-ico{
+            width:13px;
+            height:12px;
+            background:url(../img/close-ico.png);
+            display: inline-block;
+            position: absolute;
+            top: 10px;
+            right: 10px;
+        }
+        /* .form-group{
+            margin-bottom: 20px;
+        } */
+        .inp-num{
+             border: 1px solid #dadada;
+             margin-top: 10px;
+        }
+        
+        .phone-box{
+            line-height: 45px;
+        }
+        .form-control{
+            height: 40px;
+            border:solid 1px #dadada;
+            outline-color:pink;
+            padding-left:10px;
+            box-shadow: none;
+        }
+       .areaNum{
+           display: inline-block;
+          width: 70px;
+          text-align: center;
+          border-right: 1px solid #DDD;
+          background: url('../img/arrow-down.png') no-repeat center right;
+          color: #474747;
+          font-size: 14px;
+       }
+       .inp-phone{
+           border: none;
+           outline:0;
+           padding-left: 10px;
+           font-size: 14px;
+       }
+       .Flyme-agree{
+           width:300px
+       }
+        .verify{
+                width:100%;
+                color: #666;
+                height:42px;
+                font-size: 16px;
+                border: 1px solid #DDD;
+                background:linear-gradient(#fff,#DDD);
+                outline:none;
+                margin-bottom: 10px;
+                margin-top: 10px;
+            }
+       
+      .tips-text{
+          color: #515151; 
+          font-size: 12px;
+       }
+       .word{
+           font-size: 13px;
+       }
+      
+       .btn-default[disabled]{
+        background:#387aff;
+        border:none;
+        color: #fff;
+       }
+       .btn-login{
+           width:100%;
+           height:40px;
+           background:#387aff;
+           border:none;
+           color: #fff;
+           font-size: 16px;
+           outline: none;
+       }
+       .btn-login:hover{
+        background:#1b54c5;
+        color:#fff;
+       }
+      .linkBlue{
+          color: #32a5e7;
+          font-size:14px;
+      }
+      .forgetpass{
+          float: right;
+      }
+      .footer{
+          width:1000px;
+          height:140px;
+          margin:24px auto 30px;
+      }
+      /* .footer-menu{
+          text-align: center;
+      } */
+      .foot-url{
+        display: inline-block;
+      }
+      .foot-url a{
+          color:#515151
+      }
+      a:hover{
+          text-decoration:none;
+          color: black;
+      }
+      .foot-line {
+           width:1px;
+           height:10px;
+           background-color:#888;
+           margin:0 5px;
+      }
+    .dropup{
+        display: inline-block;
+        position: relative;
+    }
+    .dropdown-menu{
+        position:absolute;
+    }
+    .language{
+        border:none;
+    }
+    .foot-service{
+        display: inline-block;
+        margin-left:30px;
+    }
+    .service-label,.service-num{
+        margin-right:15px;
+    }
+    .service-online{
+        display: inline-block;
+        background-color: #32a5e7;
+        width:70px;
+        line-height: 20px;
+        text-align: center;
+        color:#fff;
+    }
+    .service-online:hover{
+        color:#fff;
+    }
+    .foot-media{
+        display: inline-block;
+        line-height: 32px;
+        vertical-align: middle;
+        margin-left: 100px;
+    }
+    .foot-media a{
+        display: inline-block;
+        width:32px;
+        height:32px;
+        margin-left: 10px;
+    }
+    .foot-sina{
+        background: url('../img/base.png') -218px -91px no-repeat;
+    }
+    .foot-weChat{
+        background: url('../img/base.png') -302px -91px no-repeat;
+    }
+    .foot-qq{
+        background: url('../img/base.png') -344px -91px no-repeat;
+    }
+    .foot-sina:hover{
+        background: url('../img/base.png') -218px -137px no-repeat;
+    }
+    .foot-weChat:hover{
+        background: url('../img/base.png') -302px -137px no-repeat;
+    }
+    .foot-qq:hover{
+        background: url('../img/base.png') -344px -137px no-repeat;
+    }
+    .foot-copy{
+        margin-top: 20px;
+    }
+    .copyright{
+        font-size: 12px;
+        color:#7f7f7f;
+    }
+    .linkAGray{
+        color:#7f7f7f;
+        margin-left: 6px;
+    }
+    .linkAGray:hover{
+        color: #000000;;
+    }

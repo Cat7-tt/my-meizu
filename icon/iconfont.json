@@ -1,0 +1,65 @@
+{
+  "id": "2249549",
+  "name": "meizu",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "9937668",
+      "name": "客服",
+      "font_class": "kefu",
+      "unicode": "e751",
+      "unicode_decimal": 59217
+    },
+    {
+      "icon_id": "4646165",
+      "name": "下箭头",
+      "font_class": "f11",
+      "unicode": "e607",
+      "unicode_decimal": 58887
+    },
+    {
+      "icon_id": "9643461",
+      "name": "√",
+      "font_class": "icon-test",
+      "unicode": "e617",
+      "unicode_decimal": 58903
+    },
+    {
+      "icon_id": "1188154",
+      "name": "用户",
+      "font_class": "user",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "5027339",
+      "name": "放大镜",
+      "font_class": "fdj",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "7352583",
+      "name": "meizu",
+      "font_class": "meizu",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "9229217",
+      "name": "用户",
+      "font_class": "user2",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "12470103",
+      "name": "购物车空",
+      "font_class": "gwc",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    }
+  ]
+}

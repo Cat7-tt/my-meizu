@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>魅族-注册</title>
+    <link rel='stylesheet' href="../bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="../css/register.css">
+    <style>
+        
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="header">
+            <a href="./meizu.html" target='_blank' class="mz">
+                <span class="logo"></span>
+            </a>
+        </div>
+        <div class="content">
+              <div class="banner">
+                 <form class="logForm border-radius"> 
+                      <h3 class="log-title">注册 Flyme 账号</h3>
+                      <div class="tip border-radius">
+                          <i class="error-ico"></i>
+                          <span class="regsiter">
+                             手机号码输入格式有误
+                         </span>
+                         <i class="close-ico"></i>
+                      </div>
+                        <div  class="form-group  inp-num">
+                            <div class="phone-box">
+                                <span class="areaNum"> +86</span>
+                                <input type='text' class="inp-phone" id='inp-phone' name='phone' placeholder="手机号码" maxlength="11" autocomplete="off">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="password" class="form-control border-radius" id="pass"  name='pass' placeholder="密码">
+                        </div>
+                        <div  class="form-group">
+                            <button type="button"  class="verify border-radius"> 点击按钮进行验证 </button>
+                        </div>
+                        <div class="form-group Flyme-agree">
+                            <input type="checkbox" name="acceptFlyme" id="acceptFlyme" class="acceptFlyme">
+                             <span class="tips-text">注册账号即表示您同意并愿意遵守</span>
+                             <a class="/serviceAgreement word">Flyme账号服务协议</a>
+                             <span class="tips-text">、</span>
+                             <a href="http://www.meizu.com/legal.html" target='_blank' class="word">法律声明</a>
+                             <span class="tips-text">和</span>
+                             <a href="/privacy" target='_blank' class="word">隐私政策</a>
+                             
+                        </div>
+                       
+                        <div class="form-group">
+                            <button type="button" disabled class="btn-login btn-default border-radius btn-default[disabled]" id='btn-register'>立即注册</button>
+                        </div>
+                      <div class="transfer">
+                          <a href='./login.html' class="linkBlue">登录</a>
+                      </div>
+              </div>
+        </div>
+        <div class="footer">
+             <div class="footer-menu">
+                 <div class="foot-url">
+                    <a href="http://www.meizu.com/about.html" target="_blank" title="关于魅族">关于魅族</a>
+                    <img class="foot-line" src="../img/space.gif">
+                    <a href="http://hr.meizu.com" target="_blank" title="工作机会">工作机会</a>
+                    <img class="foot-line" src="../img/space.gif">
+                    <a href="http://www.meizu.com/contact.html" target="_blank" title="联系我们">联系我们</a>
+                    <img class="foot-line" src="../img/space.gif">
+                    <a href="https://www.meizu.com/legal.html" target="_blank" title="法律声明">法律声明</a>
+                    <img class="foot-line" src="../img/space.gif">
+                    <a href="https://uc-res.mzres.com/resources/uc/wlogin/faq/html/index.html" target="_blank" title="常见问题">常见问题</a>
+                    <img class="foot-line" src="../img/space.gif">
+                    <div class="dropup">
+                        <button class="language btn-default dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          简体中文
+                          <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                          <li><a href="#">English</a></li>
+                          
+                        </ul>
+                      </div>
+                 </div>
+                 <div class="foot-service">
+                    <span class='service-label'>客服热线</span>
+                    <span class='service-num' >400-788-3333</span>
+                    <a  class='service-online border-radius' href="" title="在线客服">在线客服</a>
+                 </div>
+                 <div class="foot-media">
+                    <a class='foot-sina' href="http://weibo.com/meizumobile" target="_blank"><i class='i_icon'></i></a>
+				    <a id='foot-weChat' class='foot-weChat' href="" target="_blank"><i class='i_icon'></i></a>
+                    <a class='foot-qq' href="http://user.qzone.qq.com/2762957059" target="_blank"><i class='i_icon'></i></a>
+                 </div>
+                <div >
+                </div>
+             </div>
+             <div class="foot-copy">
+                <div class="copyright">
+                    <span>©<script type="text/javascript">document.write(new Date().getFullYear());</script> Meizu Telecom Equipment Co., Ltd. All rights reserved.</span>
+                    <a href="http://www.miitbeian.gov.cn/" class='linkAGray' target="_blank">备案号: 粤ICP备13003602号-4</a>
+                    <a href="http://www3.res.meizu.com/static/cn/widget/footer/images/icp2_b2dcb54.jpg" class='linkAGray' target="_blank">经营许可证编号: 粤B2-20130198</a>
+                    <a target="_blank" href="http://www2.res.meizu.com/zh_cn/images/common/com_licence.jpg" hidefocus="true" class="linkAGray">营业执照</a>
+                </div>
+             </div>
+        </div>
+    </div>
+    <script src='../bootstrap/js/jquery-1.11.0.js'></script>
+    <script src='../bootstrap/js/bootstrap.js'></script>
+    <script src='../js/encap_ajax.js'></script>
+    <script src='../js/cookie.js'></script>
+    <script src='../js/register.js'></script>
+</body>
+</html>
